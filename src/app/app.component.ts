@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { AddToCartService } from './services/add-to-cart.service';
+import { ApiService } from './services/api.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 't-shirt';
+  title = 'Ecommerce';
+
+  totalItem = 0;
+
+  constructor(private cartService: AddToCartService) {
+
+  }
+
+  ngOnInit() {
+    this.cartService.getCartItemList().subscribe(res => {
+      this.totalItem = res.length
+      return length
+    })
+  }
 }

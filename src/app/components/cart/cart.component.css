@@ -1,0 +1,55 @@
+.product-container {
+    padding: 50px 80px;
+}
+
+table {
+    width: 100%;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+
+tr,
+td,
+th {
+    border: 2px solid black;
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+}
+
+tr td img {
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.name {
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.decrease {
+    width: 30px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.increase {
+    width: 30px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.empty {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.total td {
+    text-align: right;
+}

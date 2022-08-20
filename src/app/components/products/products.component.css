@@ -1,0 +1,101 @@
+.search {
+    padding: 30px;
+    background-color: white;
+    position: fixed;
+    top: 40px;
+    z-index: 2;
+    width: 100%;
+
+}
+
+.search input {
+    margin-right: 20px;
+    padding: 10px;
+    margin-left: 30%;
+    width: 400px;
+}
+
+.search button {
+    padding: 10px;
+}
+
+
+/* side-filter */
+
+.side-filter {
+    position: fixed;
+    width: 200px;
+    border: 2px solid black;
+    height: 88vh;
+    left: 10px;
+    z-index: 3;
+    top: 70px;
+    padding: 10px;
+
+}
+
+
+/* product-container */
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 0 50px;
+    margin-left: 210px;
+    padding-top: 150px;
+}
+
+.product {
+    border: 2px solid black;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.product-img img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-img {
+    position: relative;
+}
+
+.product-img b {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.product-details p {
+    margin-top: 10px;
+}
+
+.product-details button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+
+.checkbox-section {
+    margin-bottom: 20px;
+}
+
+
+.input-holder input {
+    margin-right: 10px;
+}
